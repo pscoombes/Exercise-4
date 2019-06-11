@@ -1,5 +1,5 @@
 import React from "react";
-import SearchBar from './SearchBar';
+import SearchBarContainer from './SearchBarContainer';
 import ProductTable from './ProductTable';
 
 class FilterableProductTable extends React.Component {
@@ -12,7 +12,7 @@ class FilterableProductTable extends React.Component {
         console.log('FilterableProductTable render');
         return (
             <div> 
-                <SearchBar />
+                <SearchBarContainer />
                 <ProductTable />
             </div>
         )
